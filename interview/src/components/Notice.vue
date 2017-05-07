@@ -1,28 +1,28 @@
 <template>
   <div class="notice">
+    <a name="notice"></a>
   	<h1>预订须知</h1>
     <div class="confirm">
       <h3>确认时间</h3>
       <p>商家会在<span>1小时内</span>确认，并发送<span>短信通知。</span></p>
     </div>
     <div class="process">
-      <h3>使用流程<span>查看注意事项 ></span></h3>
-      <div class="one">
+      <h3>使用流程<span><a href="#">查看注意事项 ></a></span></h3>
+      <div class="list">
       	<h4>
-    	  <span>1</span>
-    	  获取商家确认信息
+    	    <span>1</span>
+    	    获取商家确认信息
         </h4>
         <p>预订成功后，商家会将确认邮件发送至您提供的邮箱。</p>
       </div>
-      <div class="two">
+      <div class="list">
       	<h4>
-    	  <span>1</span>
+    	  <span>2</span>
     	  指定地换票
         </h4>
         <p>在换票点出示确认短信即可兑换实体票。</p>
       </div>
     </div>
-    <div class="border"></div>
     <div class="prompt">
       <h3>退改提示</h3>
       <h4>指定日期前可退款</h4>
@@ -46,17 +46,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.left{
-  width:100%;
-  
-  background-color:red;
-}
-.right{
-  width:100%;
- 
-  background-color:green;
-}
-
-
+<style lang="sass" scoped>
+@import "../assets/style/notice.scss"
 </style>

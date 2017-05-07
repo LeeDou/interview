@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+.border{
+	background: #E1E1E1;
+	height: 1px;
+	width: 100%;
+}
+#app{
+  padding:0;
+  margin:0;
+  font-family: ".PingFang-SC-Regular";
+}
+@media screen and (max-width: 320px){
+	.advisory p{
+		background:url('./assets/img/Group 3.png') no-repeat center center;
+	}
+	.top .title .cheat{
+		background: url('./assets/img/服务保障主.png') no-repeat left center;
+	}
+	.top .title .sell{
+		background: url('./assets/img/服务保障次级_dp.png') no-repeat left center;
+	}
+	.comment p{
+		background: url('./assets/img/up.png') no-repeat 1rem center;
+	}	
+	.navigation .light{
+		background: url('./assets/img/group-11@2x.png') no-repeat 45% -0.2rem;
+	}
+	.navigation .light p{
+		background: url('./assets/img/point1.png') no-repeat left center;
+	}
+}
+@media screen and (min-width: 321px) and(max-width: 414px){
+	.advisory p{
+		background:url('./assets/img/Group 3@2x.png') no-repeat center center;
+	}
+	.top .title .cheat{
+		background: url('./assets/img/服务保障主@2x.png') no-repeat left center;
+	}
+	.top .title .sell{
+		background: url('./assets/img/服务保障次级_dp@2x.png') no-repeat left center;
+	}
+	.comment p{
+		background: url('./assets/img/up@2x.png') no-repeat 1rem center;
+	}
+	.navigation .light{
+		background: url('./assets/img/group-11@2x@2x.png') no-repeat 45% -0.2rem;
+	}
+	.navigation .light p{
+		background: url('./assets/img/point1.png') no-repeat left center;
+	}		
+}
+@media screen and (min-width: 415px){
+	.advisory p{
+		background:url('./assets/img/Group 3@3x.png') no-repeat center center;
+	}
+	.top .title .cheat{
+		background: url('./assets/img/服务保障主@3x.png') no-repeat left center;
+	}
+	.top .title .sell{
+		background: url('./assets/img/服务保障次级_dp@3x.png') no-repeat left center;
+	}
+	.comment p{
+		background: url('./assets/img/up@3x.png') no-repeat 1rem center;
+	}
+	.navigation .light{
+		background: url('./assets/img/group-11@2x@3x.png') no-repeat 45% -0.2rem;
+		background-size: 30% 30%;
+	}
+	.navigation .light p{
+		background: url('./assets/img/point.png') no-repeat left center;
+	}
+
+}

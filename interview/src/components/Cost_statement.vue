@@ -1,7 +1,7 @@
 <template>
-  <div class="Cost_statement">
-    <h1>费用说明</h1>
-    <div class="border"></div>
+  <div class="cost_statement">
+    <a name="cost_statement"></a>
+    <h1 class="hh" id="hh">费用说明</h1>
     <div class="pay_include">
       <h3>费用包含</h3>
       <ol>
@@ -13,6 +13,7 @@
       </ol>
     </div>
     <div class="pay_include">
+      <h3>费用不包含</h3>
       <ol>
       	<li>个人消费</li>
       	<li>餐饮费</li>
@@ -31,17 +32,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.left{
-  width:100%;
-  
-  background-color:red;
-}
-.right{
-  width:100%;
- 
-  background-color:green;
-}
-
-
+<style lang="sass" scoped>
+@import "../assets/style/cost_statement.scss"
 </style>

@@ -1,0 +1,22 @@
+.advisory{
+	position: fixed;
+	top: 82%;
+	right: 1.2rem;
+	width: 2rem;
+	height: 2rem;
+	background: rgba(255,255,255,0.9);
+    border: 0 solid #E1E1E1;
+    border-radius: 2rem;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.30);
+    padding: 0.8rem;
+    // p{
+    //     background: url('../assets/img/Group 3@2x.png') no-repeat center center;
+    // } 
+    h6{
+    	text-align: center;
+    	line-height: 0.8rem;
+    	height: 0.8rem;
+    	font-size: 0.8rem;
+    	color: #FF6633;
+    }	
+}

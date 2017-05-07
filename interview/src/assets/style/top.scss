@@ -1,0 +1,68 @@
+.top{
+	width: 100%;
+	border-bottom: 0.05rem solid #D7D7D7;
+	margin-bottom: 1rem;
+	background-color: #FFFFFF;
+	.title{
+		width: 92%;
+		margin: 0 auto;
+		h1{
+			font-family: ".PingFang-SC-Semibold";
+			font-size: 1.07rem;
+			color: #333333;
+			line-height: 1.78rem; 
+		} 
+
+		.icon_list{
+			// background: url('../assets/img/运营标签@3x.png') no-repeat left center;
+			// background-size: cover;
+			height: 2rem;
+			line-height: 2rem;
+			padding-bottom: 0.50rem;
+			.push{
+				background:url('../assets/img/运营标签@2x.png') no-repeat left center;
+				background-size:cover;
+				border: 1px solid transparent;
+			}
+			span{
+				font-family: ".PingFang-SC-Regular";
+				font-size: 0.73rem;
+				color: #666666;
+				letter-spacing: 0;
+				padding: 0 0.33rem;
+				border: 1px solid #CFCFCF;
+				border-radius: 2px;
+
+			}
+		}
+		.chose{
+			height: 3rem;
+			zoom: 1;
+			overflow: hidden;
+			p{
+				font-size: 0.87rem;
+				font-family: ".PingFang-SC-Regular";
+				letter-spacing: 0;
+			}
+			.cheat{
+				width: 5rem;
+				height: 3rem;
+				float: left;
+				line-height: 3rem;
+				padding-left: 1rem;
+				color:#6CC37B;
+				// background: url('../assets/img/服务保障主@2x.png') no-repeat left center;
+				// background-size: ;
+			}
+			.sell{
+				float: right;
+				width: 5rem;
+				height: 3rem;
+				line-height: 3rem;
+				padding-left: 1.2rem;
+				color: #999999;
+				// background: url('../assets/img/服务保障次级_dp@2x.png') no-repeat left center;
+			}
+		}
+	}
+}

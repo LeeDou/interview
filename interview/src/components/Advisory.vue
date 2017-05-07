@@ -1,10 +1,7 @@
 <template>
-  <div class="advisory">
-    <div class='box'>
-    	<h6></h6>
-    	<h6>资询</h6>
-    </div>
-    
+  <div class="advisory">   
+    	<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    	<h6>资询</h6>   
   </div>
 
 </template>
@@ -16,17 +13,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.left{
-  width:100%;
-  
-  background-color:red;
-}
-.right{
-  width:100%;
- 
-  background-color:green;
-}
-
+<style lang="sass" scoped>
+@import "../assets/style/advisory.scss"
 
 </style>
