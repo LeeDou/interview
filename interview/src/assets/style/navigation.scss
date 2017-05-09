@@ -14,11 +14,12 @@
 		ul{
 			width: 100%;
 			li a{
+				position: absolute;
 				display: inline-block;
 				width: 25%;
 				height: 3rem;
 				line-height: 3rem;
-				float: left;
+				// float: left;
 				text-align: center;
 				font-size: 1rem;
 				color: #333333;

@@ -8,6 +8,7 @@
     <Notice></Notice>
     <Pay></Pay>
     <Advisory></Advisory>
+
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import Cost_statement from './components/Cost_statement'
 import Notice from './components/Notice'
 import Pay from './components/Pay'
 import Advisory from './components/Advisory'
+
 
 export default {
   name: 'app',

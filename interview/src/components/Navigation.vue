@@ -1,13 +1,13 @@
 <template>
-  <div class="navigation">
+  <div class="navigation" >
     <a name="navigation"></a>
     <div class='nav_list'>
-      <ul>
-        <li class="focus"><a href="#navigation">商品亮点</a></li>
-        <li><a href="#trip">行程安排</a></li>
-        <li><a href="#cost_statement" >费用说明</a></li>
-        <li><a href="#notice">预定须知</a></li>
-        <li class="list_span"></li>
+      <ul id="spot" v-on:mouseover="move('msg',$event)" >
+        <li class="focus"><a href="#navigation" style="left:0">商品亮点</a></li>
+        <li><a href="#trip" style="left:25%">行程安排</a></li>
+        <li><a href="#cost_statement" style="left:50%">费用说明</a></li>
+        <li><a href="#notice" style="left:75%">预定须知</a></li>
+        <li class="list_span" id="list_span" style="left:0" ref='list_span'></li>
       </ul> 
     </div>
     <!-- <div class="border"></div> -->
@@ -26,7 +26,22 @@
 
 <script>
 export default {
-  
+  data(){
+    return {}
+  },
+  methods:{
+    move: function(msg,event){
+      let spot = this.$refs.list_span;
+      let ev=event||window.event;
+      let target = ev.target||ev.srcElement;
+      let left1 =target.style.left;
+      spot.style.left=left1;
+      spot.style.transition="left 1s";
+    }
+  },
+  created(){
+
+  }
 }
 </script>
 

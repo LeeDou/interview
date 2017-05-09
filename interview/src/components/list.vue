@@ -60,9 +60,10 @@ export default {  
   }  
 }  
 </script>  
-<style scoped> 
+<style  scoped> 
   .slide{
     width: 100%;
+
   }  
   .slide img{
       width: 100%;

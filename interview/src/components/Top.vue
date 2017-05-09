@@ -1,7 +1,7 @@
 <template>
-  <div class="top">
+  <div class="top">    
     <div ref="root" class='slider'>
-      <list></list>
+      <Banner></Banner>
     </div>
     <div class='title'>
       <h1>普吉岛+皇帝岛+小皇帝岛豪华游轮一日游·返程可在神仙半岛海域看日出</h1>
@@ -23,9 +23,11 @@
 </template>
 
 <script>
-import list from "./list"
+import Banner from './Banner'
 export default {
-  components:{list},
+  components:{
+    Banner
+  },
   data:function(){
     return {
       
